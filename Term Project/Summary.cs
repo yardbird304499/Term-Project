@@ -16,5 +16,10 @@ namespace Term_Project
         {
             InitializeComponent();
         }
+
+        private void reportz_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
