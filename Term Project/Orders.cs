@@ -16,5 +16,10 @@ namespace Term_Project
         {
             InitializeComponent();
         }
+
+        private void Orders_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
