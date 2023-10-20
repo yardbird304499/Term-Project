@@ -39,9 +39,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(27, 406);
+            button1.Location = new Point(31, 541);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(75, 22);
+            button1.Size = new Size(86, 29);
             button1.TabIndex = 0;
             button1.Text = "Home";
             button1.UseVisualStyleBackColor = true;
@@ -49,18 +50,20 @@
             // 
             // button2
             // 
-            button2.Location = new Point(98, 406);
+            button2.Location = new Point(112, 541);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
+            button2.Size = new Size(86, 31);
             button2.TabIndex = 1;
             button2.Text = "Reports";
             button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            button3.Location = new Point(170, 406);
+            button3.Location = new Point(194, 541);
+            button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
-            button3.Size = new Size(75, 23);
+            button3.Size = new Size(86, 31);
             button3.TabIndex = 2;
             button3.Text = "MAR";
             button3.UseVisualStyleBackColor = true;
@@ -68,45 +71,50 @@
             // 
             // button4
             // 
-            button4.Location = new Point(241, 406);
+            button4.Location = new Point(275, 541);
+            button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
-            button4.Size = new Size(75, 23);
+            button4.Size = new Size(86, 31);
             button4.TabIndex = 3;
             button4.Text = "FlowSheets";
             button4.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
-            button5.Location = new Point(308, 406);
+            button5.Location = new Point(352, 541);
+            button5.Margin = new Padding(3, 4, 3, 4);
             button5.Name = "button5";
-            button5.Size = new Size(75, 23);
+            button5.Size = new Size(86, 31);
             button5.TabIndex = 4;
             button5.Text = "Notes";
             button5.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
-            button6.Location = new Point(377, 406);
+            button6.Location = new Point(431, 541);
+            button6.Margin = new Padding(3, 4, 3, 4);
             button6.Name = "button6";
-            button6.Size = new Size(75, 23);
+            button6.Size = new Size(86, 31);
             button6.TabIndex = 5;
             button6.Text = "Order";
             button6.UseVisualStyleBackColor = true;
             // 
             // button7
             // 
-            button7.Location = new Point(448, 405);
+            button7.Location = new Point(512, 540);
+            button7.Margin = new Padding(3, 4, 3, 4);
             button7.Name = "button7";
-            button7.Size = new Size(75, 23);
+            button7.Size = new Size(86, 31);
             button7.TabIndex = 6;
             button7.Text = "Education";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // reportz
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(button7);
             Controls.Add(button6);
             Controls.Add(button5);
@@ -114,6 +122,7 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "reportz";
             Text = "Summary";
             Load += reportz_Load;

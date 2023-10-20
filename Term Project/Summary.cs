@@ -31,5 +31,15 @@ namespace Term_Project
         {
 
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Education frm = new Education();
+            frm.Location = this.Location;
+            frm.StartPosition = FormStartPosition.Manual;
+            frm.FormClosing += delegate { this.Show(); };
+            frm.Show();
+            this.Hide();
+        }
     }
 }
