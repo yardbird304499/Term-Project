@@ -35,6 +35,7 @@
             button3 = new Button();
             button2 = new Button();
             button1 = new Button();
+            button8 = new Button();
             SuspendLayout();
             // 
             // button7
@@ -107,11 +108,22 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // button8
+            // 
+            button8.Location = new Point(637, 374);
+            button8.Name = "button8";
+            button8.Size = new Size(89, 23);
+            button8.TabIndex = 36;
+            button8.Text = "Health Plan";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
+            // 
             // Education
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button8);
             Controls.Add(button7);
             Controls.Add(button6);
             Controls.Add(button5);
@@ -134,5 +146,6 @@
         private Button button3;
         private Button button2;
         private Button button1;
+        private Button button8;
     }
 }

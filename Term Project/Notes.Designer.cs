@@ -35,14 +35,14 @@
             button3 = new Button();
             button2 = new Button();
             button1 = new Button();
+            button8 = new Button();
             SuspendLayout();
             // 
             // button7
             // 
-            button7.Location = new Point(654, 483);
-            button7.Margin = new Padding(3, 4, 3, 4);
+            button7.Location = new Point(572, 362);
             button7.Name = "button7";
-            button7.Size = new Size(83, 31);
+            button7.Size = new Size(73, 23);
             button7.TabIndex = 20;
             button7.Text = "Education";
             button7.UseVisualStyleBackColor = true;
@@ -50,69 +50,80 @@
             // 
             // button6
             // 
-            button6.Location = new Point(573, 484);
-            button6.Margin = new Padding(3, 4, 3, 4);
+            button6.Location = new Point(501, 363);
             button6.Name = "button6";
-            button6.Size = new Size(83, 31);
+            button6.Size = new Size(73, 23);
             button6.TabIndex = 19;
             button6.Text = "Order";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // button5
             // 
-            button5.Location = new Point(494, 484);
-            button5.Margin = new Padding(3, 4, 3, 4);
+            button5.Location = new Point(432, 363);
             button5.Name = "button5";
-            button5.Size = new Size(83, 31);
+            button5.Size = new Size(73, 23);
             button5.TabIndex = 18;
             button5.Text = "FlowSheets";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button4
             // 
-            button4.Location = new Point(246, 483);
-            button4.Margin = new Padding(3, 4, 3, 4);
+            button4.Location = new Point(215, 362);
             button4.Name = "button4";
-            button4.Size = new Size(83, 31);
+            button4.Size = new Size(73, 23);
             button4.TabIndex = 17;
             button4.Text = "Summary";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button3
             // 
-            button3.Location = new Point(336, 484);
-            button3.Margin = new Padding(3, 4, 3, 4);
+            button3.Location = new Point(294, 363);
             button3.Name = "button3";
-            button3.Size = new Size(83, 31);
+            button3.Size = new Size(73, 23);
             button3.TabIndex = 16;
             button3.Text = "MAR";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(416, 484);
-            button2.Margin = new Padding(3, 4, 3, 4);
+            button2.Location = new Point(364, 363);
             button2.Name = "button2";
-            button2.Size = new Size(83, 31);
+            button2.Size = new Size(73, 23);
             button2.TabIndex = 15;
             button2.Text = "Reports";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
-            button1.Location = new Point(173, 484);
-            button1.Margin = new Padding(3, 4, 3, 4);
+            button1.Location = new Point(151, 363);
             button1.Name = "button1";
-            button1.Size = new Size(83, 29);
+            button1.Size = new Size(73, 22);
             button1.TabIndex = 14;
             button1.Text = "Home";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // button8
+            // 
+            button8.Location = new Point(641, 362);
+            button8.Name = "button8";
+            button8.Size = new Size(89, 23);
+            button8.TabIndex = 35;
+            button8.Text = "Health Plan";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
             // 
             // Notes
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(914, 600);
+            ClientSize = new Size(800, 450);
+            Controls.Add(button8);
             Controls.Add(button7);
             Controls.Add(button6);
             Controls.Add(button5);
@@ -120,7 +131,6 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "Notes";
             Text = "Notes";
             Load += Notes_Load;
@@ -136,5 +146,6 @@
         private Button button3;
         private Button button2;
         private Button button1;
+        private Button button8;
     }
 }
