@@ -52,6 +52,22 @@
             label2 = new Label();
             label1 = new Label();
             pictureBox2 = new PictureBox();
+            panel1 = new Panel();
+            panel3 = new Panel();
+            label14 = new Label();
+            label15 = new Label();
+            label16 = new Label();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            label17 = new Label();
+            label18 = new Label();
+            label19 = new Label();
+            label20 = new Label();
+            label21 = new Label();
+            label22 = new Label();
+            tableLayoutPanel2 = new TableLayoutPanel();
+            label24 = new Label();
+            label25 = new Label();
+            tableLayoutPanel3 = new TableLayoutPanel();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -307,11 +323,204 @@
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
             // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.ActiveCaptionText;
+            panel1.Location = new Point(240, 81);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(10, 337);
+            panel1.TabIndex = 50;
+            // 
+            // panel3
+            // 
+            panel3.BackColor = SystemColors.ActiveCaptionText;
+            panel3.Location = new Point(546, 81);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(10, 337);
+            panel3.TabIndex = 51;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label14.Location = new Point(67, 96);
+            label14.Name = "label14";
+            label14.Size = new Size(109, 30);
+            label14.TabIndex = 52;
+            label14.Text = "Scheduled";
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label15.Location = new Point(371, 96);
+            label15.Name = "label15";
+            label15.Size = new Size(54, 30);
+            label15.TabIndex = 53;
+            label15.Text = "PRN";
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label16.Location = new Point(619, 96);
+            label16.Name = "label16";
+            label16.Size = new Size(119, 30);
+            label16.TabIndex = 54;
+            label16.Text = "Continuous";
+            // 
+            // tableLayoutPanel1
+            // 
+            tableLayoutPanel1.ColumnCount = 3;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 90F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 52F));
+            tableLayoutPanel1.Location = new Point(1, 204);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 8;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 52.272728F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 47.727272F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 28F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 28F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 24F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 21F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 24F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel1.Size = new Size(233, 193);
+            tableLayoutPanel1.TabIndex = 55;
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Location = new Point(1, 186);
+            label17.Name = "label17";
+            label17.Size = new Size(70, 15);
+            label17.TabIndex = 56;
+            label17.Text = "Medication:";
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Location = new Point(90, 186);
+            label18.Name = "label18";
+            label18.Size = new Size(72, 15);
+            label18.TabIndex = 57;
+            label18.Text = "Instructions:";
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Location = new Point(184, 186);
+            label19.Name = "label19";
+            label19.Size = new Size(34, 15);
+            label19.TabIndex = 58;
+            label19.Text = "Date:";
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Location = new Point(745, 186);
+            label20.Name = "label20";
+            label20.Size = new Size(34, 15);
+            label20.TabIndex = 62;
+            label20.Text = "Date:";
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Location = new Point(651, 186);
+            label21.Name = "label21";
+            label21.Size = new Size(72, 15);
+            label21.TabIndex = 61;
+            label21.Text = "Instructions:";
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.Location = new Point(562, 186);
+            label22.Name = "label22";
+            label22.Size = new Size(70, 15);
+            label22.TabIndex = 60;
+            label22.Text = "Medication:";
+            // 
+            // tableLayoutPanel2
+            // 
+            tableLayoutPanel2.ColumnCount = 3;
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 90F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 52F));
+            tableLayoutPanel2.Location = new Point(562, 204);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.RowCount = 8;
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 52.272728F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 47.727272F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 28F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 28F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 24F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 21F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 24F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel2.Size = new Size(233, 193);
+            tableLayoutPanel2.TabIndex = 59;
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.Location = new Point(398, 186);
+            label24.Name = "label24";
+            label24.Size = new Size(72, 15);
+            label24.TabIndex = 65;
+            label24.Text = "Instructions:";
+            // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.Location = new Point(281, 186);
+            label25.Name = "label25";
+            label25.Size = new Size(70, 15);
+            label25.TabIndex = 64;
+            label25.Text = "Medication:";
+            // 
+            // tableLayoutPanel3
+            // 
+            tableLayoutPanel3.ColumnCount = 2;
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 117F));
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel3.Location = new Point(281, 204);
+            tableLayoutPanel3.Name = "tableLayoutPanel3";
+            tableLayoutPanel3.RowCount = 8;
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 52.272728F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 47.727272F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 28F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 28F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 24F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 21F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 24F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel3.Size = new Size(233, 193);
+            tableLayoutPanel3.TabIndex = 63;
+            // 
             // MAR
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label24);
+            Controls.Add(label25);
+            Controls.Add(tableLayoutPanel3);
+            Controls.Add(label20);
+            Controls.Add(label21);
+            Controls.Add(label22);
+            Controls.Add(tableLayoutPanel2);
+            Controls.Add(label19);
+            Controls.Add(label18);
+            Controls.Add(label17);
+            Controls.Add(tableLayoutPanel1);
+            Controls.Add(label16);
+            Controls.Add(label15);
+            Controls.Add(label14);
+            Controls.Add(panel3);
+            Controls.Add(panel1);
             Controls.Add(panel2);
             Controls.Add(button8);
             Controls.Add(button7);
@@ -327,6 +536,7 @@
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -354,5 +564,21 @@
         private Label label2;
         private Label label1;
         private PictureBox pictureBox2;
+        private Panel panel1;
+        private Panel panel3;
+        private Label label14;
+        private Label label15;
+        private Label label16;
+        private TableLayoutPanel tableLayoutPanel1;
+        private Label label17;
+        private Label label18;
+        private Label label19;
+        private Label label20;
+        private Label label21;
+        private Label label22;
+        private TableLayoutPanel tableLayoutPanel2;
+        private Label label24;
+        private Label label25;
+        private TableLayoutPanel tableLayoutPanel3;
     }
 }

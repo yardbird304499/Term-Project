@@ -52,8 +52,37 @@
             label2 = new Label();
             label1 = new Label();
             pictureBox1 = new PictureBox();
+            label19 = new Label();
+            label18 = new Label();
+            label17 = new Label();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            label16 = new Label();
+            label15 = new Label();
+            label14 = new Label();
+            panel3 = new Panel();
+            panel2 = new Panel();
+            button9 = new Button();
+            button10 = new Button();
+            button11 = new Button();
+            label21 = new Label();
+            label23 = new Label();
+            label24 = new Label();
+            tableLayoutPanel3 = new TableLayoutPanel();
+            button12 = new Button();
+            button13 = new Button();
+            button14 = new Button();
+            label20 = new Label();
+            label22 = new Label();
+            label25 = new Label();
+            tableLayoutPanel2 = new TableLayoutPanel();
+            button15 = new Button();
+            button16 = new Button();
+            button17 = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            tableLayoutPanel1.SuspendLayout();
+            tableLayoutPanel3.SuspendLayout();
+            tableLayoutPanel2.SuspendLayout();
             SuspendLayout();
             // 
             // button7
@@ -313,11 +342,303 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Location = new Point(121, 133);
+            label19.Name = "label19";
+            label19.Size = new Size(34, 15);
+            label19.TabIndex = 74;
+            label19.Text = "Date:";
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Location = new Point(91, 133);
+            label18.Name = "label18";
+            label18.Size = new Size(0, 15);
+            label18.TabIndex = 73;
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Location = new Point(2, 133);
+            label17.Name = "label17";
+            label17.Size = new Size(61, 15);
+            label17.TabIndex = 72;
+            label17.Text = "Summary:";
+            // 
+            // tableLayoutPanel1
+            // 
+            tableLayoutPanel1.ColumnCount = 2;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 116F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel1.Controls.Add(button9, 0, 0);
+            tableLayoutPanel1.Controls.Add(button10, 0, 1);
+            tableLayoutPanel1.Controls.Add(button11, 0, 2);
+            tableLayoutPanel1.Location = new Point(2, 151);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 3;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 48.7804871F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 51.2195129F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 88F));
+            tableLayoutPanel1.Size = new Size(233, 253);
+            tableLayoutPanel1.TabIndex = 71;
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label16.Location = new Point(624, 88);
+            label16.Name = "label16";
+            label16.Size = new Size(105, 30);
+            label16.TabIndex = 70;
+            label16.Text = "Radiology\r\n";
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label15.Location = new Point(331, 88);
+            label15.Name = "label15";
+            label15.Size = new Size(120, 30);
+            label15.TabIndex = 69;
+            label15.Text = "Diagnostics";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label14.Location = new Point(91, 88);
+            label14.Name = "label14";
+            label14.Size = new Size(55, 30);
+            label14.TabIndex = 68;
+            label14.Text = "Labs";
+            // 
+            // panel3
+            // 
+            panel3.BackColor = SystemColors.ActiveCaptionText;
+            panel3.Location = new Point(547, 88);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(10, 337);
+            panel3.TabIndex = 67;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = SystemColors.ActiveCaptionText;
+            panel2.Location = new Point(241, 88);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(10, 337);
+            panel2.TabIndex = 66;
+            // 
+            // button9
+            // 
+            button9.AllowDrop = true;
+            button9.AutoSize = true;
+            button9.CausesValidation = false;
+            button9.Dock = DockStyle.Bottom;
+            button9.Location = new Point(3, 52);
+            button9.Name = "button9";
+            button9.Size = new Size(110, 25);
+            button9.TabIndex = 0;
+            button9.Text = "Full Report";
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
+            // 
+            // button10
+            // 
+            button10.Dock = DockStyle.Bottom;
+            button10.Location = new Point(3, 138);
+            button10.Name = "button10";
+            button10.Size = new Size(110, 23);
+            button10.TabIndex = 1;
+            button10.Text = "Full Report\r\n";
+            button10.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            button11.Dock = DockStyle.Bottom;
+            button11.Location = new Point(3, 227);
+            button11.Name = "button11";
+            button11.Size = new Size(110, 23);
+            button11.TabIndex = 2;
+            button11.Text = "Full Report";
+            button11.UseVisualStyleBackColor = true;
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Location = new Point(405, 133);
+            label21.Name = "label21";
+            label21.Size = new Size(34, 15);
+            label21.TabIndex = 95;
+            label21.Text = "Date:";
+            // 
+            // label23
+            // 
+            label23.AutoSize = true;
+            label23.Location = new Point(375, 133);
+            label23.Name = "label23";
+            label23.Size = new Size(0, 15);
+            label23.TabIndex = 94;
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.Location = new Point(286, 133);
+            label24.Name = "label24";
+            label24.Size = new Size(61, 15);
+            label24.TabIndex = 93;
+            label24.Text = "Summary:";
+            // 
+            // tableLayoutPanel3
+            // 
+            tableLayoutPanel3.ColumnCount = 2;
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 116F));
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel3.Controls.Add(button12, 0, 0);
+            tableLayoutPanel3.Controls.Add(button13, 0, 1);
+            tableLayoutPanel3.Controls.Add(button14, 0, 2);
+            tableLayoutPanel3.Location = new Point(286, 151);
+            tableLayoutPanel3.Name = "tableLayoutPanel3";
+            tableLayoutPanel3.RowCount = 3;
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 48.7804871F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 51.2195129F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 88F));
+            tableLayoutPanel3.Size = new Size(233, 253);
+            tableLayoutPanel3.TabIndex = 92;
+            // 
+            // button12
+            // 
+            button12.AllowDrop = true;
+            button12.AutoSize = true;
+            button12.CausesValidation = false;
+            button12.Dock = DockStyle.Bottom;
+            button12.Location = new Point(3, 52);
+            button12.Name = "button12";
+            button12.Size = new Size(110, 25);
+            button12.TabIndex = 0;
+            button12.Text = "Full Report";
+            button12.UseVisualStyleBackColor = true;
+            // 
+            // button13
+            // 
+            button13.Dock = DockStyle.Bottom;
+            button13.Location = new Point(3, 138);
+            button13.Name = "button13";
+            button13.Size = new Size(110, 23);
+            button13.TabIndex = 1;
+            button13.Text = "Full Report\r\n";
+            button13.UseVisualStyleBackColor = true;
+            // 
+            // button14
+            // 
+            button14.Dock = DockStyle.Bottom;
+            button14.Location = new Point(3, 227);
+            button14.Name = "button14";
+            button14.Size = new Size(110, 23);
+            button14.TabIndex = 2;
+            button14.Text = "Full Report";
+            button14.UseVisualStyleBackColor = true;
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Location = new Point(682, 133);
+            label20.Name = "label20";
+            label20.Size = new Size(34, 15);
+            label20.TabIndex = 99;
+            label20.Text = "Date:";
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.Location = new Point(652, 133);
+            label22.Name = "label22";
+            label22.Size = new Size(0, 15);
+            label22.TabIndex = 98;
+            // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.Location = new Point(563, 133);
+            label25.Name = "label25";
+            label25.Size = new Size(61, 15);
+            label25.TabIndex = 97;
+            label25.Text = "Summary:";
+            // 
+            // tableLayoutPanel2
+            // 
+            tableLayoutPanel2.ColumnCount = 2;
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 116F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel2.Controls.Add(button15, 0, 0);
+            tableLayoutPanel2.Controls.Add(button16, 0, 1);
+            tableLayoutPanel2.Controls.Add(button17, 0, 2);
+            tableLayoutPanel2.Location = new Point(563, 151);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.RowCount = 3;
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 48.7804871F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 51.2195129F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 88F));
+            tableLayoutPanel2.Size = new Size(233, 253);
+            tableLayoutPanel2.TabIndex = 96;
+            // 
+            // button15
+            // 
+            button15.AllowDrop = true;
+            button15.AutoSize = true;
+            button15.CausesValidation = false;
+            button15.Dock = DockStyle.Bottom;
+            button15.Location = new Point(3, 52);
+            button15.Name = "button15";
+            button15.Size = new Size(110, 25);
+            button15.TabIndex = 0;
+            button15.Text = "Full Report";
+            button15.UseVisualStyleBackColor = true;
+            // 
+            // button16
+            // 
+            button16.Dock = DockStyle.Bottom;
+            button16.Location = new Point(3, 138);
+            button16.Name = "button16";
+            button16.Size = new Size(110, 23);
+            button16.TabIndex = 1;
+            button16.Text = "Full Report\r\n";
+            button16.UseVisualStyleBackColor = true;
+            // 
+            // button17
+            // 
+            button17.Dock = DockStyle.Bottom;
+            button17.Location = new Point(3, 227);
+            button17.Name = "button17";
+            button17.Size = new Size(110, 23);
+            button17.TabIndex = 2;
+            button17.Text = "Full Report";
+            button17.UseVisualStyleBackColor = true;
+            // 
             // reports
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label20);
+            Controls.Add(label22);
+            Controls.Add(label25);
+            Controls.Add(tableLayoutPanel2);
+            Controls.Add(label21);
+            Controls.Add(label23);
+            Controls.Add(label24);
+            Controls.Add(tableLayoutPanel3);
+            Controls.Add(label19);
+            Controls.Add(label18);
+            Controls.Add(label17);
+            Controls.Add(tableLayoutPanel1);
+            Controls.Add(label16);
+            Controls.Add(label15);
+            Controls.Add(label14);
+            Controls.Add(panel3);
+            Controls.Add(panel2);
             Controls.Add(panel1);
             Controls.Add(button8);
             Controls.Add(button7);
@@ -333,7 +654,14 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            tableLayoutPanel1.ResumeLayout(false);
+            tableLayoutPanel1.PerformLayout();
+            tableLayoutPanel3.ResumeLayout(false);
+            tableLayoutPanel3.PerformLayout();
+            tableLayoutPanel2.ResumeLayout(false);
+            tableLayoutPanel2.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -361,5 +689,31 @@
         private Label label8;
         private Label label7;
         private Label label13;
+        private Label label19;
+        private Label label18;
+        private Label label17;
+        private TableLayoutPanel tableLayoutPanel1;
+        private Label label16;
+        private Label label15;
+        private Label label14;
+        private Panel panel3;
+        private Panel panel2;
+        private Button button9;
+        private Button button10;
+        private Button button11;
+        private Label label21;
+        private Label label23;
+        private Label label24;
+        private TableLayoutPanel tableLayoutPanel3;
+        private Button button12;
+        private Button button13;
+        private Button button14;
+        private Label label20;
+        private Label label22;
+        private Label label25;
+        private TableLayoutPanel tableLayoutPanel2;
+        private Button button15;
+        private Button button16;
+        private Button button17;
     }
 }
