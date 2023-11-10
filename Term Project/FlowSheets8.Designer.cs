@@ -46,6 +46,7 @@
             pictureBox2 = new PictureBox();
             button1 = new Button();
             label14 = new Label();
+            textBox1 = new TextBox();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -234,11 +235,21 @@
             label14.TabIndex = 47;
             label14.Text = "CIWA";
             // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(208, 142);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(358, 223);
+            textBox1.TabIndex = 48;
+            textBox1.Text = "Nausea and Vomiting: x\r\nTremor: x\r\nParoxysmal Sweats: x\r\nTactile Disturbance: x\r\nAuditory Disturbances: x\r\nVisual Disturbances: x\r\nFinal Score: x\r\n";
+            // 
             // FlowSheets8
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(textBox1);
             Controls.Add(label14);
             Controls.Add(button1);
             Controls.Add(panel2);
@@ -270,5 +281,6 @@
         private PictureBox pictureBox2;
         private Button button1;
         private Label label14;
+        private TextBox textBox1;
     }
 }

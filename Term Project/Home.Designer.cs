@@ -33,12 +33,13 @@
             button3 = new Button();
             panel1 = new Panel();
             label13 = new Label();
+            label1 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(350, 90);
+            button1.Location = new Point(352, 187);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 1;
@@ -48,7 +49,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(336, 133);
+            button2.Location = new Point(334, 216);
             button2.Name = "button2";
             button2.Size = new Size(107, 23);
             button2.TabIndex = 2;
@@ -58,7 +59,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(336, 179);
+            button3.Location = new Point(336, 245);
             button3.Name = "button3";
             button3.Size = new Size(105, 23);
             button3.TabIndex = 3;
@@ -86,11 +87,22 @@
             label13.Text = "Home";
             label13.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(352, 140);
+            label1.Name = "label1";
+            label1.Size = new Size(69, 15);
+            label1.TabIndex = 39;
+            label1.Text = "Patient List";
+            // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
             Controls.Add(panel1);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -99,6 +111,7 @@
             Text = "Home";
             panel1.ResumeLayout(false);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -107,5 +120,6 @@
         private Button button3;
         private Panel panel1;
         private Label label13;
+        private Label label1;
     }
 }

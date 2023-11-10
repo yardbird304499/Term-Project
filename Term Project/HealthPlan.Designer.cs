@@ -52,6 +52,7 @@
             label2 = new Label();
             label1 = new Label();
             pictureBox2 = new PictureBox();
+            textBox1 = new TextBox();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -307,11 +308,21 @@
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
             // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(221, 114);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(358, 223);
+            textBox1.TabIndex = 43;
+            textBox1.Text = "The patient will take xx and do xx\r\n";
+            // 
             // HealthPlan
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(textBox1);
             Controls.Add(panel2);
             Controls.Add(button8);
             Controls.Add(button7);
@@ -328,6 +339,7 @@
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -355,5 +367,6 @@
         private Label label2;
         private Label label1;
         private PictureBox pictureBox2;
+        private TextBox textBox1;
     }
 }
