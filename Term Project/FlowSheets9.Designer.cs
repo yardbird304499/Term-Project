@@ -1,6 +1,6 @@
 ﻿namespace Term_Project
 {
-    partial class HealthPlan
+    partial class FlowSheets9
     {
         /// <summary>
         /// Required designer variable.
@@ -28,15 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HealthPlan));
-            button7 = new Button();
-            button6 = new Button();
-            button5 = new Button();
-            button4 = new Button();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
-            button8 = new Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FlowSheets9));
             panel2 = new Panel();
             label13 = new Label();
             label12 = new Label();
@@ -52,100 +44,15 @@
             label2 = new Label();
             label1 = new Label();
             pictureBox2 = new PictureBox();
+            button1 = new Button();
+            label14 = new Label();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
-            // button7
-            // 
-            button7.BackColor = Color.MediumOrchid;
-            button7.Location = new Point(531, 425);
-            button7.Name = "button7";
-            button7.Size = new Size(73, 23);
-            button7.TabIndex = 34;
-            button7.Text = "Education";
-            button7.UseVisualStyleBackColor = false;
-            button7.Click += button7_Click;
-            // 
-            // button6
-            // 
-            button6.BackColor = Color.DodgerBlue;
-            button6.Location = new Point(460, 426);
-            button6.Name = "button6";
-            button6.Size = new Size(73, 23);
-            button6.TabIndex = 33;
-            button6.Text = "Notes";
-            button6.UseVisualStyleBackColor = false;
-            button6.Click += button6_Click;
-            // 
-            // button5
-            // 
-            button5.BackColor = Color.Lime;
-            button5.Location = new Point(391, 426);
-            button5.Name = "button5";
-            button5.Size = new Size(73, 23);
-            button5.TabIndex = 32;
-            button5.Text = "FlowSheets";
-            button5.UseVisualStyleBackColor = false;
-            button5.Click += button5_Click;
-            // 
-            // button4
-            // 
-            button4.BackColor = Color.Gray;
-            button4.Location = new Point(185, 425);
-            button4.Name = "button4";
-            button4.Size = new Size(73, 23);
-            button4.TabIndex = 31;
-            button4.Text = "Summary";
-            button4.UseVisualStyleBackColor = false;
-            button4.Click += button4_Click;
-            // 
-            // button3
-            // 
-            button3.BackColor = Color.Crimson;
-            button3.Location = new Point(253, 426);
-            button3.Name = "button3";
-            button3.Size = new Size(73, 23);
-            button3.TabIndex = 30;
-            button3.Text = "MAR";
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
-            // 
-            // button2
-            // 
-            button2.BackColor = Color.PaleVioletRed;
-            button2.Location = new Point(323, 426);
-            button2.Name = "button2";
-            button2.Size = new Size(73, 23);
-            button2.TabIndex = 29;
-            button2.Text = "Reports";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(121, 426);
-            button1.Name = "button1";
-            button1.Size = new Size(73, 22);
-            button1.TabIndex = 28;
-            button1.Text = "Home";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // button8
-            // 
-            button8.BackColor = Color.Gold;
-            button8.Location = new Point(600, 426);
-            button8.Name = "button8";
-            button8.Size = new Size(73, 23);
-            button8.TabIndex = 35;
-            button8.Text = "Orders";
-            button8.UseVisualStyleBackColor = false;
-            button8.Click += button8_Click;
-            // 
             // panel2
             // 
-            panel2.BackColor = Color.Peru;
+            panel2.BackColor = Color.Lime;
             panel2.Controls.Add(label13);
             panel2.Controls.Add(label12);
             panel2.Controls.Add(label11);
@@ -163,17 +70,17 @@
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
             panel2.Size = new Size(801, 75);
-            panel2.TabIndex = 41;
+            panel2.TabIndex = 42;
             // 
             // label13
             // 
             label13.Font = new Font("Segoe UI", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
             label13.ForeColor = SystemColors.ActiveCaptionText;
-            label13.Location = new Point(625, 32);
+            label13.Location = new Point(632, 32);
             label13.Name = "label13";
-            label13.Size = new Size(192, 43);
+            label13.Size = new Size(179, 43);
             label13.TabIndex = 13;
-            label13.Text = "Health Plan";
+            label13.Text = "Flow Sheets";
             label13.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label12
@@ -307,39 +214,46 @@
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
             // 
-            // HealthPlan
+            // button1
+            // 
+            button1.Location = new Point(0, 429);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 45;
+            button1.Text = "Back";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label14.Location = new Point(331, 78);
+            label14.Name = "label14";
+            label14.Size = new Size(117, 40);
+            label14.TabIndex = 46;
+            label14.Text = "Fall Risk";
+            label14.Click += label14_Click;
+            // 
+            // FlowSheets9
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(panel2);
-            Controls.Add(button8);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
+            Controls.Add(label14);
             Controls.Add(button1);
-            Name = "HealthPlan";
-            Text = "HealthPlan";
-            Load += HealthPlan_Load;
+            Controls.Add(panel2);
+            Name = "FlowSheets9";
+            Text = "FlowSheets9";
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private Button button7;
-        private Button button6;
-        private Button button5;
-        private Button button4;
-        private Button button3;
-        private Button button2;
-        private Button button1;
-        private Button button8;
         private Panel panel2;
         private Label label13;
         private Label label12;
@@ -355,5 +269,7 @@
         private Label label2;
         private Label label1;
         private PictureBox pictureBox2;
+        private Button button1;
+        private Label label14;
     }
 }
