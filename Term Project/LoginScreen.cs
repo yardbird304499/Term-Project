@@ -16,6 +16,7 @@ namespace Term_Project
         public LoginScreen()
         {
             InitializeComponent();
+            label1.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -25,10 +26,22 @@ namespace Term_Project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            privlages = textBox1.Text;
-            Home newHomeScreen = new Home();
-            newHomeScreen.Show();
-            this.Hide();
+            if((textBox1.Text == "student") || (textBox1.Text == "instructor") || (textBox1.Text == "simteam"))
+            {
+                privlages = textBox1.Text;
+                Home newHomeScreen = new Home();
+                newHomeScreen.Show();
+                this.Hide();
+            }
+            else
+            {
+                label1.Show();
+            }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

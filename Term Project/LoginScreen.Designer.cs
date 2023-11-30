@@ -36,6 +36,7 @@
             panel2 = new Panel();
             label13 = new Label();
             linkLabel1 = new LinkLabel();
+            label1 = new Label();
             panel2.SuspendLayout();
             SuspendLayout();
             // 
@@ -45,6 +46,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(525, 23);
             textBox1.TabIndex = 1;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // textBox2
             // 
@@ -111,11 +113,23 @@
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Forgot Password?";
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.LightCoral;
+            label1.ForeColor = Color.Black;
+            label1.Location = new Point(16, 223);
+            label1.Name = "label1";
+            label1.Size = new Size(240, 15);
+            label1.TabIndex = 44;
+            label1.Text = "Error: Username or Password not recognized";
+            // 
             // LoginScreen
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
             Controls.Add(linkLabel1);
             Controls.Add(panel2);
             Controls.Add(button1);
@@ -139,5 +153,6 @@
         private Panel panel2;
         private Label label13;
         private LinkLabel linkLabel1;
+        private Label label1;
     }
 }
