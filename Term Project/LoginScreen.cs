@@ -12,7 +12,7 @@ namespace Term_Project
 {
     public partial class LoginScreen : Form
     {
-        public String privlages = "";
+        public static String privlages = "";
         public LoginScreen()
         {
             InitializeComponent();
@@ -25,7 +25,7 @@ namespace Term_Project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.privlages = textBox1.Text;
+            privlages = textBox1.Text;
             Home newHomeScreen = new Home();
             newHomeScreen.Show();
             this.Hide();
