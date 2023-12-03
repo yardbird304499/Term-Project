@@ -15,7 +15,7 @@ namespace Term_Project
         public Orders()
         {
             InitializeComponent();
-            if(LoginScreen.privlages == "student")
+            if (LoginScreen.privlages == "student")
             {
                 button9.Hide();
                 button10.Hide();
