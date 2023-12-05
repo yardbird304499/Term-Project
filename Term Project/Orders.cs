@@ -15,6 +15,16 @@ namespace Term_Project
         public Orders()
         {
             InitializeComponent();
+            if (LoginScreen.privlages == "student")
+            {
+                button9.Hide();
+                button10.Hide();
+            }
+            else
+            {
+                button9.Show();
+                button10.Show();
+            }
         }
 
         private void Orders_Load(object sender, EventArgs e)
@@ -103,6 +113,11 @@ namespace Term_Project
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
         {
 
         }

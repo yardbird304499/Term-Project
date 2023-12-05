@@ -326,4 +326,20 @@
         zDSmOP788/8C28KaIK/z65cAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Level of Consciousness: x
+Orientation Questions: x
+Response to Commands: x
+Gaze: x
+Visual Fields: x
+Facial Movement: x
+Motor Function (arm): x
+Motor Function (leg): x
+Limb Ataxia: x
+Sensory: x
+Language: x
+Articulation: x
+Extintion or inattention: x
+Final Score: xx</value>
+  </data>
 </root>

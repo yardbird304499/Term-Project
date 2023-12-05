@@ -46,6 +46,7 @@
             pictureBox2 = new PictureBox();
             button1 = new Button();
             label14 = new Label();
+            textBox1 = new TextBox();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -230,15 +231,25 @@
             label14.Font = new Font("Segoe UI", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
             label14.Location = new Point(331, 79);
             label14.Name = "label14";
-            label14.Size = new Size(153, 40);
+            label14.Size = new Size(165, 40);
             label14.TabIndex = 48;
-            label14.Text = "Assesment";
+            label14.Text = "Assessment";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(251, 137);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(358, 223);
+            textBox1.TabIndex = 49;
+            textBox1.Text = "Current Assessment:\r\nxxx\r\n\r\nPast Assessments:\r\nxxx\r\nxxx\r\nxxx\r\nxxx";
             // 
             // FlowSheets4
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(textBox1);
             Controls.Add(label14);
             Controls.Add(button1);
             Controls.Add(panel2);
@@ -270,5 +281,6 @@
         private PictureBox pictureBox2;
         private Button button1;
         private Label label14;
+        private TextBox textBox1;
     }
 }

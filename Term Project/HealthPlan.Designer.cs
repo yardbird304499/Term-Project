@@ -52,6 +52,14 @@
             label2 = new Label();
             label1 = new Label();
             pictureBox2 = new PictureBox();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            label14 = new Label();
+            label15 = new Label();
+            textBox3 = new TextBox();
+            label16 = new Label();
+            textBox4 = new TextBox();
+            label17 = new Label();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -307,11 +315,96 @@
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
             // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(44, 113);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(161, 306);
+            textBox1.TabIndex = 43;
+            textBox1.Text = "11/14/23: The patient should have xx done\r\n\r\n12/16/23: The patient should have xx done\r\n\r\n1/18/24: The patient should have xx done\r\n\r\n2/20/24: The patient should have xx done\r\n";
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(211, 113);
+            textBox2.Multiline = true;
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(163, 306);
+            textBox2.TabIndex = 44;
+            textBox2.Text = "11/14/23: The patient will have to do xx\r\n\r\n12/16/23: The patient will have to do xx\r\n\r\n1/18/24: The patient will have to do xx\r\n\r\n2/20/24: The patient will have to do xx\r\n\r\n\r\n";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.ForeColor = SystemColors.ActiveCaptionText;
+            label14.Location = new Point(104, 95);
+            label14.Name = "label14";
+            label14.Size = new Size(36, 15);
+            label14.TabIndex = 45;
+            label14.Text = "Goals";
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.ForeColor = SystemColors.ActiveCaptionText;
+            label15.Location = new Point(253, 95);
+            label15.Name = "label15";
+            label15.Size = new Size(76, 15);
+            label15.TabIndex = 46;
+            label15.Text = "Interventions";
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(380, 114);
+            textBox3.Multiline = true;
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(164, 306);
+            textBox3.TabIndex = 47;
+            textBox3.Text = "8/14/23: The patient has done xx \r\n\r\n9/16/23: The patient has done xx \r\n\r\n10/18/23:  The patient has done xx \r\n\r\n11/14/23:  The patient has done xx \r\n";
+            textBox3.TextChanged += textBox3_TextChanged;
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.ForeColor = SystemColors.ActiveCaptionText;
+            label16.Location = new Point(427, 96);
+            label16.Name = "label16";
+            label16.Size = new Size(62, 15);
+            label16.TabIndex = 48;
+            label16.Text = "Evaluation";
+            // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(550, 114);
+            textBox4.Multiline = true;
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(191, 306);
+            textBox4.TabIndex = 49;
+            textBox4.Text = "The patient will be xx\r\n";
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.ForeColor = SystemColors.ActiveCaptionText;
+            label17.Location = new Point(591, 96);
+            label17.Name = "label17";
+            label17.Size = new Size(108, 15);
+            label17.TabIndex = 50;
+            label17.Text = "Expected Outcome";
+            // 
             // HealthPlan
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label17);
+            Controls.Add(textBox4);
+            Controls.Add(label16);
+            Controls.Add(textBox3);
+            Controls.Add(label15);
+            Controls.Add(label14);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
             Controls.Add(panel2);
             Controls.Add(button8);
             Controls.Add(button7);
@@ -328,6 +421,7 @@
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -355,5 +449,13 @@
         private Label label2;
         private Label label1;
         private PictureBox pictureBox2;
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private Label label14;
+        private Label label15;
+        private TextBox textBox3;
+        private Label label16;
+        private TextBox textBox4;
+        private Label label17;
     }
 }

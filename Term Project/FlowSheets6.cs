@@ -26,5 +26,10 @@ namespace Term_Project
             frm.Show();
             this.Hide();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

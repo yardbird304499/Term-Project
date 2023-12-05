@@ -52,8 +52,20 @@
             label2 = new Label();
             label1 = new Label();
             pictureBox2 = new PictureBox();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            textBox11 = new TextBox();
+            textBox5 = new TextBox();
+            button10 = new Button();
+            button9 = new Button();
+            tableLayoutPanel2 = new TableLayoutPanel();
+            textBox14 = new TextBox();
+            textBox22 = new TextBox();
+            textBox24 = new TextBox();
+            textBox1 = new TextBox();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            tableLayoutPanel1.SuspendLayout();
+            tableLayoutPanel2.SuspendLayout();
             SuspendLayout();
             // 
             // button7
@@ -307,11 +319,126 @@
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
             // 
+            // tableLayoutPanel1
+            // 
+            tableLayoutPanel1.ColumnCount = 1;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel1.Controls.Add(textBox1, 0, 1);
+            tableLayoutPanel1.Controls.Add(textBox11, 0, 1);
+            tableLayoutPanel1.Controls.Add(textBox5, 0, 0);
+            tableLayoutPanel1.Location = new Point(0, 78);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 2;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
+            tableLayoutPanel1.Size = new Size(801, 141);
+            tableLayoutPanel1.TabIndex = 41;
+            // 
+            // textBox11
+            // 
+            textBox11.Location = new Point(3, 97);
+            textBox11.Multiline = true;
+            textBox11.Name = "textBox11";
+            textBox11.Size = new Size(795, 41);
+            textBox11.TabIndex = 10;
+            textBox11.Text = "11/18/23                                                    Physical Therapy                                      Dr. xxxx xxxx                                             xxxxxx";
+            // 
+            // textBox5
+            // 
+            textBox5.Location = new Point(3, 3);
+            textBox5.Multiline = true;
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(795, 41);
+            textBox5.TabIndex = 4;
+            textBox5.Text = "Date                                                           Category                                                   Prescribing Doctor                                   Order";
+            // 
+            // button10
+            // 
+            button10.Location = new Point(403, 394);
+            button10.Name = "button10";
+            button10.Size = new Size(109, 23);
+            button10.TabIndex = 43;
+            button10.Text = "Delete Order";
+            button10.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            button9.Location = new Point(288, 394);
+            button9.Name = "button9";
+            button9.Size = new Size(109, 23);
+            button9.TabIndex = 44;
+            button9.Text = "Add Order";
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
+            // 
+            // tableLayoutPanel2
+            // 
+            tableLayoutPanel2.ColumnCount = 1;
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel2.Controls.Add(textBox14, 0, 2);
+            tableLayoutPanel2.Controls.Add(textBox22, 0, 0);
+            tableLayoutPanel2.Controls.Add(textBox24, 0, 1);
+            tableLayoutPanel2.Location = new Point(0, 222);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.RowCount = 3;
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel2.Size = new Size(801, 166);
+            tableLayoutPanel2.TabIndex = 45;
+            // 
+            // textBox14
+            // 
+            textBox14.Location = new Point(3, 113);
+            textBox14.Multiline = true;
+            textBox14.Name = "textBox14";
+            textBox14.Size = new Size(795, 50);
+            textBox14.TabIndex = 10;
+            textBox14.Text = "11/18/23                                                    Medication                                               Dr. xxxx xxxx                                             xxxxxx\r\n";
+            // 
+            // textBox22
+            // 
+            textBox22.Location = new Point(3, 3);
+            textBox22.Multiline = true;
+            textBox22.Name = "textBox22";
+            textBox22.Size = new Size(795, 49);
+            textBox22.TabIndex = 0;
+            textBox22.Text = "11/18/23                                                    Medication                                               Dr. xxxx xxxx                                             xxxxxx";
+            // 
+            // textBox24
+            // 
+            textBox24.Location = new Point(3, 58);
+            textBox24.Multiline = true;
+            textBox24.Name = "textBox24";
+            textBox24.Size = new Size(795, 49);
+            textBox24.TabIndex = 4;
+            textBox24.Text = "11/18/23                                                    Medication                                               Dr. xxxx xxxx                                             xxxxxx\r\n";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(3, 50);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(795, 41);
+            textBox1.TabIndex = 11;
+            textBox1.Text = "11/18/23                                                    Medication                                               Dr. xxxx xxxx                                             xxxxxx";
+            // 
             // Orders
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(tableLayoutPanel2);
+            Controls.Add(button9);
+            Controls.Add(button10);
+            Controls.Add(tableLayoutPanel1);
             Controls.Add(panel2);
             Controls.Add(button8);
             Controls.Add(button7);
@@ -327,6 +454,10 @@
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            tableLayoutPanel1.ResumeLayout(false);
+            tableLayoutPanel1.PerformLayout();
+            tableLayoutPanel2.ResumeLayout(false);
+            tableLayoutPanel2.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -355,5 +486,15 @@
         private Label label2;
         private Label label1;
         private PictureBox pictureBox2;
+        private TableLayoutPanel tableLayoutPanel1;
+        private TextBox textBox5;
+        private TextBox textBox11;
+        private Button button10;
+        private Button button9;
+        private TableLayoutPanel tableLayoutPanel2;
+        private TextBox textBox14;
+        private TextBox textBox22;
+        private TextBox textBox24;
+        private TextBox textBox1;
     }
 }

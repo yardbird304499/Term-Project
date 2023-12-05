@@ -101,5 +101,10 @@ namespace Term_Project
             frm.Show();
             this.Hide();
         }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

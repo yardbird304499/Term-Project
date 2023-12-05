@@ -24,12 +24,7 @@ namespace Term_Project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Home frm = new Home();
-            frm.Location = this.Location;
-            frm.StartPosition = FormStartPosition.Manual;
-            frm.FormClosing += delegate { this.Show(); };
-            frm.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
